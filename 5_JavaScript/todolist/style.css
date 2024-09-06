@@ -3,13 +3,14 @@
 }
 
 body{
+    background: #ffdede;
     margin: 0;
     padding: 0;
     font-size: 15px;
     font-family: "Noto Sans KR", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
-    font-style: normal;    
+    font-style: normal;
 }
 
 ul, li, oi{
@@ -72,6 +73,10 @@ h1{
     border-radius: 5px;
     position: relative;
     border: 1px solid whitesmoke;
+}
+
+.todo-list > li.done{
+    text-decoration : line-through;
 }
 
 .todo-list > li > .todo-remove-btn{
